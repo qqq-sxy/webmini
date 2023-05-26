@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/timing/timing",
+    "pages/users/user",
+    "pages/calendar/calendar",
+    "pages/allPlan/allPlan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "日程管理",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#ff9000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./public/tobarPng/fenleiorguangchangorqita.png",
+        "selectedIconPath": "./public/tobarPng/fenleiorguangchangorqitatianchong.png"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "日程",
+        "iconPath": "./public/tobarPng/rili.png",
+        "selectedIconPath": "./public/tobarPng/rilitianchong.png"
+      },
+      {
+        "pagePath": "pages/timing/timing",
+        "text": "专注",
+        "iconPath": "./public/tobarPng/shizhong.png",
+        "selectedIconPath": "./public/tobarPng/shizhongtianchong.png"
+      },
+      {
+        "pagePath": "pages/users/user",
+        "text": "个人中心",
+        "iconPath": "./public/tobarPng/yonghu.png",
+        "selectedIconPath": "./public/tobarPng/yonghutianchong.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
